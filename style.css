@@ -9,4 +9,55 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+header,
+main {
+  padding: 0 24px;
+}
+
+.intro-chunk strong {
+  color: #009966;
+}
+
+.intro-chunk {
+  width: 450px;
+  padding-top: 96px;
+  padding-bottom: 64px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+
+h2 {
+  background-color: #FFBF00;
+  width: max-content;
+  padding: 14px 32px;
+  margin-left: -32px;
+  margin-top: 0;
+  border-bottom: 8px solid #CC9900;
+}
+
+.card {
+  padding: 24px;
+  background-color: white;
+  border-bottom: 8px solid #999;
+  margin: 0 -24px;
+}
+
+main {
+  border-top: 8px solid #999;
+  background-color: #666;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.max-width-wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+}
